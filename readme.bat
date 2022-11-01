@@ -4,4 +4,4 @@ taskkill /f /im BhkSvr.exe && del "C:\Program Files\ITMS\Restore\BhkSvr.exe"
 taskkill /f /im HRMonTray.exe && del "C:\Program Files\ITMS\Restore\HRMonTray.exe"
 taskkill /f /im OActiveII-Client.exe && del "C:\Program Files\ITMS\VolumeActivation\OActiveII-Client.exe"
 taskkill /f /im ProcessProtect.exe && del "C:\Program Files (x86)\ITMS\ITBC 13\ProcessProtect.exe"
-pause
+pause && exit
