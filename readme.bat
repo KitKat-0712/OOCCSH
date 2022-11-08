@@ -1,5 +1,6 @@
 @echo off && echo.
 taskkill /f /im Student.exe && del "C:\Program Files (x86)\ITMS\ITBC 13\Student.exe" & echo.
+taskkill /f /im MultiClient.exe && del "C:\Program Files (x86)\ITMS\ITBC 13\MultiClient.exe" & echo.
 taskkill /f /im DeviceControl_x64.exe && del "C:\Program Files (x86)\ITMS\ITBC 13\x64\DeviceControl_x64.exe" & echo.
 taskkill /f /im BhkSvr.exe && del "C:\Program Files\ITMS\Restore\BhkSvr.exe" & echo.
 taskkill /f /im HRMonTray.exe && del "C:\Program Files\ITMS\Restore\HRMonTray.exe" & echo.
