@@ -6,5 +6,3 @@ taskkill /f /im HRMonTray.exe && del "C:\Program Files\ITMS\Restore\HRMonTray.ex
 taskkill /f /im OActiveII-Client.exe && del "C:\Program Files\ITMS\VolumeActivation\OActiveII-Client.exe"
 taskkill /f /im ProcessProtect.exe && del "C:\Program Files (x86)\ITMS\ITBC 13\ProcessProtect.exe"
 exit
-
-taskkill /f /im LxClient.exe && del "C:\Program Files (x86)\EVO_UEFI\LxClient.exe"
