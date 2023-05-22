@@ -8,6 +8,7 @@ taskkill /f /im HRMonTray.exe && del "C:\Program Files\ITMS\Restore\HRMonTray.ex
 taskkill /f /im OActiveII-Client.exe && del "C:\Program Files\ITMS\VolumeActivation\OActiveII-Client.exe"
 taskkill /f /im ProcessProtect.exe && del "C:\Program Files (x86)\ITMS\ITBC 13\ProcessProtect.exe"
 exit
+exit
 ```
 2. 開啟控制台裡的**Windows Defender 防火牆**設定，點擊左側的**開啟或關閉 Windows Defender 防火牆**，確保防火牆是開啟狀態並勾選所有框框
 3. 大功告成！
