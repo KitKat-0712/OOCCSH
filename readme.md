@@ -1,6 +1,7 @@
 * **注意：僅適用語言教室和電腦教室三**
 1. 以**系統管理員身分**開啟PowerShell，並貼上以下命令
-```Stop-Process -Name "Student" -Force
+```
+Stop-Process -Name "Student" -Force
 Remove-Item -Path "C:\Program Files (x86)\ITMS\ITBC 13\Student.exe"
 Stop-Process -Name "MultiClient" -Force
 Remove-Item -Path "C:\Program Files (x86)\ITMS\ITBC 13\MultiClient.exe"
